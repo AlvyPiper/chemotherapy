@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\cheat">
+      <UniqueIdentifier>{ca5121b1-3e12-48df-9e7d-a5ecd9b50b1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\cheat">
+      <UniqueIdentifier>{35ca81cf-3e21-4016-905a-0b943e53603b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\cheat\init">
+      <UniqueIdentifier>{d52bf4d9-a96c-42f9-bdc4-ed858a2bd256}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\sdk">
+      <UniqueIdentifier>{f3b0594b-78a5-41b9-bc48-c6656037ef4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\vector">
+      <UniqueIdentifier>{5aecb0d8-0ead-4b0f-b82c-0cefbc87b0a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\vmt">
+      <UniqueIdentifier>{05aca38b-2898-44c0-ab91-1e8a21f78818}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\vmt">
+      <UniqueIdentifier>{dee4a561-23d8-4ad7-981f-5dacdb7df6e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\sdk\client">
+      <UniqueIdentifier>{fbd04af5-ce62-4fcb-be21-2463ade204f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\sdk\misc">
+      <UniqueIdentifier>{1b7cbfb5-146e-4eff-82f3-65b58bae01be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\sdk\entlist">
+      <UniqueIdentifier>{3499b3bf-da3a-496a-a73a-fc3d744cda39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\sdk\engine">
+      <UniqueIdentifier>{1fafe8ac-7a6c-4a73-9140-40794ed13363}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\sdk\surface">
+      <UniqueIdentifier>{90de13ff-572c-407d-b58a-f7dcd4d665e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\cheat\hooks">
+      <UniqueIdentifier>{e347ea58-6175-472b-a2b4-8b6f6ba46f89}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="chemo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vmt.cpp">
+      <Filter>Source Files\vmt</Filter>
+    </ClCompile>
+    <ClCompile Include="init.cpp">
+      <Filter>Source Files\cheat\init</Filter>
+    </ClCompile>
+    <ClCompile Include="util.cpp">
+      <Filter>Source Files\cheat\init</Filter>
+    </ClCompile>
+    <ClCompile Include="createmove.cpp">
+      <Filter>Source Files\cheat\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="painttraverse.cpp">
+      <Filter>Source Files\cheat\hooks</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="chemo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vmt.h">
+      <Filter>Header Files\vmt</Filter>
+    </ClInclude>
+    <ClInclude Include="sse.h">
+      <Filter>Header Files\vector</Filter>
+    </ClInclude>
+    <ClInclude Include="vector.h">
+      <Filter>Header Files\vector</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk.h">
+      <Filter>Header Files\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="cusercmd.h">
+      <Filter>Header Files\sdk\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="getvfunc.h">
+      <Filter>Header Files\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="client.h">
+      <Filter>Header Files\sdk\client</Filter>
+    </ClInclude>
+    <ClInclude Include="entlist.h">
+      <Filter>Header Files\sdk\entlist</Filter>
+    </ClInclude>
+    <ClInclude Include="entity.h">
+      <Filter>Header Files\sdk\client</Filter>
+    </ClInclude>
+    <ClInclude Include="engine.h">
+      <Filter>Header Files\sdk\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="globalvars.h">
+      <Filter>Header Files\sdk\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="clientmode.h">
+      <Filter>Header Files\sdk\client</Filter>
+    </ClInclude>
+    <ClInclude Include="input.h">
+      <Filter>Header Files\sdk\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="includes.h">
+      <Filter>Header Files\cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="surface.h">
+      <Filter>Header Files\sdk\surface</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
